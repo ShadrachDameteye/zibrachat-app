@@ -56,7 +56,7 @@ function MessageForm() {
           </div>
         )}
         {user && privateMemberMsg?._id && (
-          <>
+          <div>
             <div className="alert alert-info conversation-info">
               <div>
                 Your conversation with {privateMemberMsg.name}{' '}
@@ -67,7 +67,7 @@ function MessageForm() {
                 />
               </div>
             </div>
-          </>
+          </div>
         )}
         {!user && <div className="alert alert-danger">Please login</div>}
 

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import '../css/Home.css';
 function Home() {
   return (
     <Row>
       <Col
         md={6}
-        className="d-flex flex-direction-column align-tems-center justify-content-center"
+        className="d-flex flex-direction-column align-terms-center justify-content-center"
       >
         <div>
           <svg
