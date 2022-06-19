@@ -1,0 +1,39 @@
+.signup__bg {
+  /* margin-top: 100px; */
+  background-image: url('../assets/people-discuss-news-with-each-other-exchange-messages-ideas-speech-bubbles-white-background_110633-625.webp');
+  height: 42vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+.signup-message-icon {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.signup-Profile-pic_container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.signup-Profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  object-fit: cover;
+  height: 100px;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0px;
+  color: green;
+  background: white;
+  cursor: pointer;
+  font-size: 25pt;
+  z-index: 99;
+}
